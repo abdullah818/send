@@ -1,8 +1,8 @@
-# Firefox Send
+Firefox Send
 
 [![CircleCI](https://img.shields.io/circleci/project/github/mozilla/send.svg)](https://circleci.com/gh/mozilla/send)
 
-## NOTICE - May 2021
+NOTICE - May 2021
 
 Mozilla discontinued the Firefox Send service in September 2021. For more information about this, please see the [Mozilla Blog](https://blog.mozilla.org/blog/2020/09/17/update-on-firefox-send-and-firefox-notes/).
 
@@ -14,7 +14,7 @@ This repository is archived. In May 2021, Mozilla removed Mozilla trademarks fro
 
 ---
 
-## Table of Contents
+Table of Contents
 
 * [What it does](#what-it-does)
 * [Requirements](#requirements)
@@ -30,13 +30,13 @@ This repository is archived. In May 2021, Mozilla removed Mozilla trademarks fro
 
 ---
 
-## What it does
+What it does
 
 A file sharing experiment which allows you to send encrypted files to other users.
 
 ---
 
-## Requirements
+Requirements
 
 - [Node.js 12.x](https://nodejs.org/)
 - [Redis server](https://redis.io/) (optional for development)
@@ -44,7 +44,7 @@ A file sharing experiment which allows you to send encrypted files to other user
 
 ---
 
-## Development
+Development
 
 To start an ephemeral development server, run:
 
@@ -57,7 +57,7 @@ Then, browse to http://localhost:8080
 
 ---
 
-## Commands
+Commands
 
 | Command          | Description |
 |------------------|-------------|
@@ -70,13 +70,13 @@ Then, browse to http://localhost:8080
 
 ---
 
-## Configuration
+Configuration
 
 The server is configured with environment variables. See [server/config.js](server/config.js) for all options and [docs/docker.md](docs/docker.md) for examples.
 
 ---
 
-## Localization
+Localization
 
 Firefox Send localization is managed via [Pontoon](https://pontoon.mozilla.org/projects/test-pilot-firefox-send/), not direct pull requests to the repository. If you want to fix a typo, add a new language, or simply know more about localization, please get in touch with the [existing localization team](https://pontoon.mozilla.org/teams/) for your language or Mozilla’s [l10n-drivers](https://wiki.mozilla.org/L10n:Mozilla_Team#Mozilla_Corporation) for guidance.
 
@@ -84,13 +84,13 @@ see also [docs/localization.md](docs/localization.md)
 
 ---
 
-## Contributing
+Contributing
 
 Pull requests are always welcome! Feel free to check out the list of ["good first issues"](https://github.com/mozilla/send/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
 ---
 
-## Testing
+Testing
 
 | ENVIRONMENT | URL
 |-------------|-----
